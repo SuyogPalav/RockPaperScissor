@@ -145,7 +145,7 @@ class GameRPS:
             self.playAgain();
 
     def thanksNote(self):
-        "Thanks note | Ending Note"
+        """Thanks note | Ending Note"""
         print("\nThanks for Playing..!!");
         print("See You Soon...");
         input("\nPress Enter to exit.!");
@@ -175,5 +175,3 @@ if __name__ == '__main__':
         else:
             g1.thanksNote();
             exit();
-
-
